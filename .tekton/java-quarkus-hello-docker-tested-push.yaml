@@ -14,7 +14,7 @@ metadata:
     appstudio.openshift.io/component: java-quarkus-hello-docker-tested
     pipelines.appstudio.openshift.io/type: build
   name: java-quarkus-hello-docker-tested-on-push
-  namespace: bsutter-tenant
+  namespace: rycole-tenant
 spec:
   params:
   - name: dockerfile
